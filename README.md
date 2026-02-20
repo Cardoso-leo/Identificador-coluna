@@ -1,24 +1,32 @@
-Analisador Automático de Arquivos CSV/Excel
-Descrição
+Automatic CSV/Excel File Analyzer
 
-Este script em Python realiza a leitura e análise automática de arquivos CSV e Excel em uma pasta especificada, sem necessidade de informar manualmente o nome do arquivo. Ele seleciona o arquivo mais recente e realiza uma inspeção inicial dos dados.
+This Python script automatically reads and analyzes CSV and Excel files located in a specified folder, without requiring the user to manually provide the file name. It identifies the most recently modified file and performs an initial data inspection.
 
-As principais funcionalidades incluem:
+Key Features
 
-Busca automática de arquivos CSV, XLSX ou XLS em uma pasta.
+Automatic File Detection
+Searches for .csv, .xlsx, and .xls files inside a specified directory.
 
-Seleção do arquivo mais recente com base na data de modificação.
+Latest File Selection
+Automatically selects the most recently modified file based on its modification date.
 
-Leitura inteligente considerando diferentes separadores em arquivos CSV.
+Smart CSV Reading
+Handles different delimiters when processing CSV files.
 
-Normalização dos nomes das colunas.
+Column Name Normalization
+Standardizes column names for improved consistency and usability.
 
-Exibição de informações resumidas:
+Data Overview Summary
+Displays essential dataset information, including:
 
-Total de colunas
+Total number of columns
 
-Nomes das colunas
+Column names
 
-Tipos de dados
+Data types
 
-Primeiras linhas do dataset
+First rows of the dataset
+
+Purpose
+
+This tool is designed to streamline the initial data exploration process, making it faster and more efficient when working with frequently updated CSV or Excel files.
